@@ -11,9 +11,22 @@
   <div id="topbar">FastMemo</div>
   <input id="search" placeholder="検索">
   <div id="list"></div>
+  <div id="sideButtons">
+    <button id="newBtn">新規</button>
+    <button id="deleteBtn">削除</button>
+  </div>
 </div>
 
 <div id="main">
+  <div id="toolbar">
+    <label>フォント:</label>
+    <select id="fontSelect">
+      <option value="system-ui">System</option>
+      <option value="serif">Serif</option>
+      <option value="monospace">Monospace</option>
+      <option value="cursive">Cursive</option>
+    </select>
+  </div>
   <div id="tabs"></div>
   <div id="editorArea">
     <textarea id="editor"></textarea>
